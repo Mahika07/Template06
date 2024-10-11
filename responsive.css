@@ -1,0 +1,62 @@
+@media screen and (max-width: 600px) {
+
+  .pro_name_btn,
+  .project_container {
+    flex-direction: column;
+  }
+
+  .prv-nxt-btn {
+    margin: 30px auto;
+  }
+
+  .project_container {
+    text-align: center;
+  }
+
+  .section02 {
+    text-align: center;
+  }
+
+  .achv {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .achv div {
+    justify-content: space-evenly;
+    padding-top: 2vw;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .txt_rotate {
+    text-align: center;
+    margin: 10px 5px 50px 5px;
+    line-height: 80px;
+  }
+
+  .home_content {
+    margin-top: 80px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+  }
+
+  .section02 {
+    height: max-content;
+  }
+
+  .profile_img {
+    text-align: center;
+  }
+}
